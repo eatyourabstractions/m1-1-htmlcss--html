@@ -1,1 +1,54 @@
 <!-- ...crickets... -->
+<html>
+    <h1>Registration form</h1>
+    <body>
+    <form action="">
+        <div style="float:left;">
+            <label for="Username">Username:</label>
+            <input type="text" id="Username" name="Username"><br><br>
+        </div>
+        <div style="float:left;">
+            <label for="Password">Password:</label>
+            <input type="text" id="Password" name="Password"><br><br>
+        </div>
+        <div >
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" name="Email"><br><br>
+        </div>
+        <h2>Which taxi do you like</h2>
+        <div>
+            <div style="float:left;"> <input type="radio" name="model" value="Car"> Car</div>
+            <div style="float:left;"><input type="radio" name="model" value="Van"> Van</div>
+            <input type="radio" name="model" value="Tuk Tuk"> Tuk Tuk
+        </div>
+        <h2>Choose your extras</h2>
+        <div>
+            <div style="float:left;"> <input type="radio" name="extra" value="Extra1"> Baby Seat</div>
+            <div style="float:left;"><input type="radio" name="extra" value="Extra2"> Wheelchair access</div>
+            <input type="radio" name="extra" value="Extra3"> Privacy Windows
+        </div>
+        <h2>Where would you like to pick up?</h2>
+        <div>
+        <label for="location">Pick up location:</label>
+        <select >
+            <option>Select one</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <h2>Additional instructions</h2>
+        <div>
+            <label for="special">Special:</label>
+            <textarea rows="5" cols="25">
+                Provide special instructions here
+              </textarea>
+              <input type="submit" value="Submit">
+        </div>
+        
+    </form>    
+    
+    </body>
+</html>
+
